@@ -2,7 +2,7 @@
   <img src="README/SS.gif">
 </p>
 
-# ECS-SFML-Platformer
+# ECS SFML Platformer
 This is an experiment that uses SFML Framework, C++ 17, EnTT (Entity-Component System).  
 
 
