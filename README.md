@@ -3,55 +3,53 @@
 </p>
 
 # ECS SFML Platformer
-I had been using objected-oriented programming since learning my first language. At some point, I always ran into the same issue where my inheratance trees quickly turn into a flaming, convoluted mess. I eventually found that Entity Component System removes that problem by  assigning components to entities that are all impacted by the same system. I also frequently use C++ 17 features, particuarly unique_ptr and auto keyword.
+I had been using objected-oriented programming since learning my first language. At some point, I always ran into the same issue where my inheratance trees quickly turn into a flaming, convoluted mess. I eventually found that Entity Component System removes that problem by assigning components to entities that are all impacted by the same system. I also frequently use C++ 17 features, particuarly unique_ptr and auto keyword.
 
-Here's a little primer on Entity Component Systems and Data Oriented Design:
+Here's a little primer on Entity Component Systems.
 
-### Break down into end to end tests
+### Entity Component System
 
-Explain what these tests test and why
+Entities are ONLY a simple unsigned datatype like std::uint32_t. A component is a simple struct that only contains a collection of variables. A system refrences components and applies a universal set of rules upon it. In the example of the game above, the blue box is an entity that has a transform component (x,y,z) and is set as dynamic. In a system called gravity, it should check two things:
 
-```
-Give an example
-```
+1) It has a transform (otherwise it wouldn't be able to refrence the Y position of the entity).
+2) The entity is dynamic (because a static entity cannot be affected by gravity).
 
-### And coding style tests
+If these two conditions are fulfilled, then there should be a gravitational field going dornward. 
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Each entity is added to a registry which keeps a record of all components attached to an entity. 
 
 ## System Architecture
 
-##### Cases
+##### Workflow
 
-There are a few different ways you can name things. Here are some common casing types:
-
-> ###### PascalCase
+> ###### Systems
 >
-> Capitalize every word and remove all spaces, e.g. `DesertEagle`, `StyleGuide`, `ASeriesOfWords`.
+> Systems check every entity with a collection of components and apply a universal set of rules upon it.
 > 
-> ###### camelCase
+> ###### Components
 >
-> The first letter is always lowercase but every following word starts with uppercase, e.g. `desertEagle`, `styleGuide`, `aSeriesOfWords`.
+> Components are a set of variables. An entity can have multiple of these of once. Each entity has their own
+> inputs for the component;
 >
-> ###### Snake_case
+> ###### Prefabs
 >
-> Words can arbitrarily start upper or lowercase but words are separated by an underscore, e.g. `desert_Eagle`, `Style_Guide`, `a_Series_of_Words`.
+> Prefabs create an entity that already has a specific group of components already.
+>
+> ###### Manager
+>
+> Managers contain a set of systems and describe how they interact with each other.
+>
 
-## Naming Conventions
+## Conventions
 
-##### Variables
-
-| Asset Type              | Asset Name                                                 |
+| Type                    | Convention                                                 |
 | ----------------------- | ---------------------------------------------------------- |
-| Skeletal Mesh           | SK_Bob                                                     |
-| Material                | M_Bob                                                      |
-| Texture (Diffuse/Albedo)| T_Bob_D                                                    |
-| Texture (Normal)        | T_Bob_N                                                    |
-| Texture (Evil Diffuse)  | T_Bob_Evil_D                                               |
+| Global Variable         | &#95;VariableName                                          |
+| System                  | SSystemClass                                               |
+| Manager                 | MManagerClass                                              |
+| Component               | CComponentStruct                                           |
+| Prefab                  | PF_PrefabStruct                                            |
+| Helper                  | HHelperStruct                                              |
 
 
 ## Most Recent Footage
