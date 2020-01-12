@@ -5,8 +5,7 @@
 # ECS SFML Platformer
 I had been using objected-oriented programming since learning my first language. At some point, I always ran into the same issue where my inheratance trees quickly turn into a flaming, convoluted mess. I eventually found that Entity Component System removes that problem by assigning components to entities that are all impacted by the same system. I also frequently use C++ 17 features, particuarly unique_ptr and auto keyword.
 
-Here's a little primer on Entity Component Systems.
-
+Here's a little primer on Entity Component Systems:
 ### Entity Component System
 
 Entities are ONLY a simple unsigned datatype like std::uint32_t. A component is a simple struct that only contains a collection of variables. A system refrences components and applies a universal set of rules upon it. In the example of the game above, the blue box is an entity that has a transform component (x,y,z) and is set as dynamic. In a system called gravity, it should check two things:
@@ -41,6 +40,9 @@ Each entity is added to a registry which keeps a record of all components attach
 >
 
 ## Conventions
+
+The code is written using Allman indentation (and the occasional K&R for small statements).
+The code uses PascalCase.
 
 | Type                    | Convention                                                 |
 | ----------------------- | ---------------------------------------------------------- |
