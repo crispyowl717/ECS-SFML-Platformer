@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ECS_SFML" targetName="ECS_SFML" />
+      <config projectName="ECS_SFML" targetName="ECS" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0036778f-a9ed-45ed-aca2-c488d17d9c60" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1WKAw0BXcBCtg6ifigomFUhq9Nq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ECS_SFML/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="CMake Application.ECS_SFML">
+    <configuration name="ECS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ECS_SFML" TARGET_NAME="ECS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ECS_SFML" RUN_TARGET_NAME="ECS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ECS_SFML" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ECS_SFML" TARGET_NAME="ECS_SFML" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ECS_SFML" RUN_TARGET_NAME="ECS_SFML">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ECS" />
+      <item itemvalue="CMake Application.ECS_SFML" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\holly\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0036778f-a9ed-45ed-aca2-c488d17d9c60" name="Default Changelist" comment="" />
+      <created>1578888146049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578888146049</updated>
+      <workItem from="1578888149252" duration="1400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1824" y="-166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578888983007">
+      <screen x="-1920" y="-166" width="1280" height="693" />
+    </state>
+    <state x="-1824" y="-166" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-166.1280.693/0.0.1366.728@-1920.-166.1280.693" timestamp="1578888983007" />
+    <state x="-1549" y="-79" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578888271431">
+      <screen x="-1920" y="-166" width="1280" height="693" />
+    </state>
+    <state x="-1549" y="-79" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.-166.1280.693/0.0.1366.728@-1920.-166.1280.693" timestamp="1578888271431" />
+    <state x="-1499" y="-71" key="FileChooserDialogImpl" timestamp="1578888959072">
+      <screen x="-1920" y="-166" width="1280" height="693" />
+    </state>
+    <state x="-1499" y="-71" key="FileChooserDialogImpl/-1920.-166.1280.693/0.0.1366.728@-1920.-166.1280.693" timestamp="1578888959072" />
+    <state x="-1778" y="-166" key="SettingsEditor" timestamp="1578889436234">
+      <screen x="-1920" y="-166" width="1280" height="693" />
+    </state>
+    <state x="-1778" y="-166" key="SettingsEditor/-1920.-166.1280.693/0.0.1366.728@-1920.-166.1280.693" timestamp="1578889436234" />
+  </component>
+</project>
