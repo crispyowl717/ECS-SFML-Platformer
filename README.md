@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="README/SS.gif">
-</p>
-
 # ECS SFML Platformer
 I had been using objected-oriented programming since learning my first language. At some point, I always ran into the same issue where my inheratance trees quickly turn into a flaming, convoluted mess. I eventually found that Entity Component System removes that problem by assigning components to entities that are all impacted by the same system. I also frequently use C++ 17 features, particuarly unique_ptr and auto keyword.
 
